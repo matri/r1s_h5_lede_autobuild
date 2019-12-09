@@ -96,7 +96,7 @@ jobs:
         run: |
           cd /home/runner/work/r1s_h5_lede_autobuild/r1s_h5_lede_autobuild/friendlywrt
           rm -f ./.config*
-          wget https://raw.githubusercontent.com/skytotwo/r1s_h5_lede_autobuild/master/r1s-h5-config
+          wget https://raw.githubusercontent.com/matri/r1s_h5_lede_autobuild/master/r1s-h5-config
           cp r1s-h5-config .config
       - name: Build OpenWrt
         run: |
